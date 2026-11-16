@@ -1,0 +1,56 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #4f46e5;
+    margin-left: 1.5rem;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.card {
+    background: #ffffff;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+h1, h2 {
+    color: #1e1b4b;
+}
+
+.skills-list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #e0e7ff;
+    color: #3730a3;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 500;
+}
